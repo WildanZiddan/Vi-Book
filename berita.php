@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="./CSS/home.css">
+    <link rel="stylesheet" href="./CSS/berita.css">
 </head>
 <body>
     <!-- navbar -->
     <div class="navbar">
         <nav >
             <div class="logo">
-                <a href="#">Vi-Book</a>
+                <a href="">Vi-Book</a>
             </div>
             <ul class="nav-links">
                 <li><a href="home.php">Home</a></li>
@@ -20,9 +20,9 @@
                     <div class="dropdown">
                         <button>Aktifitas</button>
                         <div class="dropdown-options">
-                            <a href="">Gallery</a>
-                            <a href="">Berita</a>
-                            <a href="">Pemberitahuan</a>
+                            <a href="galeri.php">Gallery</a>
+                            <a href="berita.php">Berita</a>
+                            <a href="notif.php">Pemberitahuan</a>
                         </div>
                     </div>
                 </li>
@@ -30,9 +30,9 @@
                     <div class="dropdown">
                         <button>Kategori</button>
                         <div class="dropdown-options">
-                            <a href="">Pelajaran</a>
-                            <a href="">Fiksi</a>
-                            <a href="">Biografi</a>
+                            <a href="pelajaran.php">Pelajaran</a>
+                            <a href="fiksi.php">Fiksi</a>
+                            <a href="bio.php">Biografi</a>
                         </div>
                     </div>
                 </li>
@@ -40,10 +40,10 @@
                     <div class="dropdown">
                     <button>Menu</button>
                         <div class="dropdown-options">
-                            <a href="">Struktur Organisasi</a>
-                            <a href="">Panduan</a>
-                            <a href="">Tata Tertib</a>
-                            <a href="">FAQ</a>
+                            <a href="struktur.php">Struktur Organisasi</a>
+                            <a href="guide.php">Panduan</a>
+                            <a href="tatib.php">Tata Tertib</a>
+                            <a href="faq.php">FAQ</a>
                         </div>
                     </div>
                 </li>
@@ -52,9 +52,12 @@
         </nav>
     </div>
 
-    <div class="home-container">
-        <h2 class="title">Welcome To Vi-Book</h2>
-        <p class="subtitle">( Selamat datang untuk memesan)</p>
+    <!-- news -->
+    <div class="berita-container">
+        <h1>Berita</h1>
+        <div class="berita-pict">
+            <h2>Sudah tersedia ratusan <br> buku yang datang <br> ke perpustakaan kami, <br> lokal maupun impor!</h2>
+        </div>
     </div>
 </body>
 </html>

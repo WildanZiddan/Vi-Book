@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['admin_username'])) {
-    header("location:homeuser.php");
+    header("location:home.php");
 }
 
 include("connection.php");
@@ -39,7 +39,7 @@ if (isset($_POST['Login'])) {
     if(empty($error)){
         $_SESSION['admin_username'] = $username;
         $_SESSION['admin_access'] = $access;
-        header("location:homesiswa.php");
+        header("location:home.php");
         exit();
     }
 }
